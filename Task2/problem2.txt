@@ -1,0 +1,13 @@
+
+Problem2
+// This program will allow user to the nth term of fibonacci series.
+ 
+Declare num,f1,f2,temp,i
+Initialize f1=1,f2=0,i=0
+Take input num
+  for i=1 to num
+           assign temp=f1+f2
+           assign f1=f2
+           assign f2=temp
+end for
+Display temp

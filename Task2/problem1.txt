@@ -1,0 +1,15 @@
+Problem1
+//This program will allow user to check whether a number is divisible by 3.
+
+Declare integer n,sum
+Take input 'n'
+initialize sum=0
+  while(n/10!=0)
+         assign sum=sum+n%10
+         assign  n=n/10
+  end while
+if(sum%3==0)
+       print"True"
+else
+      print"False"
+      
